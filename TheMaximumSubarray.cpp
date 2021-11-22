@@ -24,7 +24,6 @@ int main() {
                 else maxSubsquence = max(arr[i], maxSubsquence);
             }
             if(temp < arr[i]) temp = arr[i];    
-
             if(maxSubArray < temp) maxSubArray = temp;
         }
 
